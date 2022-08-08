@@ -1450,7 +1450,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
     height: 100%;
     margin: 0 !important;
-    padding: 0 !important
+    padding: 0 !important;
+	width: 150%;
 }
 .splide.is-initialized:not(.is-active) .splide__list {
     display: block
