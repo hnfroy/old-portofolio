@@ -1,0 +1,38 @@
+.text-typing {
+  position: absolute;
+    top: 410px;
+    left: 250px;
+}
+
+.text-
+
+.typewriter {
+  overflow: hidden; /* Membuat efek ketik terlihat seperti ketikan mesin tulis */
+  border-right: .10em solid orange; /* Posisi cursor, bisa diubah sesuai kebutuhan */
+  white-space: nowrap; /* Mencegah teks untuk pindah ke baris baru */
+  margin: 0 auto; /* Pusatkan teks */
+  letter-spacing: .15em; /* Jarak antar karakter */
+  animation:
+    typing 3s steps(30, start),
+    blink-caret .5s step-end infinite;
+}
+
+/* Animasi ketikan */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Animasi kursor berkedip */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
